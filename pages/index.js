@@ -8,7 +8,7 @@ import Footer from '../pages/footer'
 
 export default function Home() {
   return (
-    <div>
+    <div className={'z-0'}>
     
     <Head>
     <title>Create Next App</title>
@@ -20,7 +20,7 @@ export default function Home() {
     <Title></Title>
     <Filter></Filter>
     </div>
-    
+   
     <Portfolio></Portfolio>
     <Footer></Footer>
     </div>

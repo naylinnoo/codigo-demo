@@ -20,6 +20,26 @@ a {
   box-sizing: border-box;
 }
 
+.mobile-nav{
+  background-color: #3A2837;
+  /* height: 100%;
+  width: 100%; */
+  width: 50px;
+  height: 50px;
+  border-radius: 3rem;
+  z-index: 50;
+}
+
+.mobile-nav:checked{
+  background-color: yellow;
+  /* height: 100%;
+  width: 100%; */
+  width: 50px;
+  height: 50px;
+  border-radius: 3rem;
+  z-index: 50;
+}
+
 .animate{
   animation: animation-fade-in 1s;
 
