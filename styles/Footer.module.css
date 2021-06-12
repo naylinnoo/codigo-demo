@@ -1,6 +1,39 @@
+.trustsBox:hover .arrow{
+    transform: translateX(45%);
+    transition: all ease-in 0.4s;
+}
+
+.trustsBox:hover .subtitle{
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #d5333e;
+}
+
+.trustsBox{
+    width: 90%;
+}
+
 .title{
     font-weight: 800;
     font-size: 3rem;
     color: #d5333e;
     text-align: center;
+}
+
+.subtitle{
+    font-weight: 700;
+    font-size: 1.7rem;
+    transition: all 0.5s ease;
+}
+
+.arrow{
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    background-image: url(https://www.codigo.co/img/icons/arrow-red.svg);
+    background-repeat: no-repeat;
+    transition: all 0.5s ease;
 }
