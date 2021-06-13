@@ -1,6 +1,6 @@
 import styles from '../../../../styles/Port.module.css'
 
-export default function Images({category, title = 1 , size, color, image, types}) {
+export default function Images({category, title = 1 , size, color, image, types=''}) {
 
         //array map category icons
         const data = Array.from(types)
