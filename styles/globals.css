@@ -20,6 +20,14 @@ a {
   box-sizing: border-box;
 }
 
+.codigo-secondary{
+  background-color: #3A2837;
+}
+
+.codigo-primary-text{
+  color: #D5333E;
+}
+
 .mobile-nav{
   background-color: #3A2837;
   /* height: 100%;
