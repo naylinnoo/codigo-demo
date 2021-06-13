@@ -9,7 +9,7 @@ export default function Footer() {
             <div className={'grid 2xl:grid-cols-4 2xl:grids-col-4 lg:grids-col-4 md:grid-cols-1 sm:grid-cols-1 grid-flow-row-dense pt-10 3xl:px-80 2xl:px-20 lg:px-0 md:px-0'}>
                 <div className={'col-span-1 2xl:border-r lg:border-r md:border-0 sm:border-0 border-black-100 grid justify-items-center py-5'}>
                     <div className={styles.trustsBox}>
-                        <div className={'flex 2xl:justify-start lg:justify-between md:justify-between sm:justify-between'}>
+                        <div className={'flex 2xl:justify-start lg:justify-between md:justify-between sm:justify-between justify-between'}>
                             <span className={styles.subtitle}>Build</span>
                             <div className={styles.arrow}/>
                         </div>
@@ -20,7 +20,7 @@ export default function Footer() {
                 <hr className={'justify-self-center w-11/12 2xl:hidden lg:block md:block sm:block'}/>
                 <div className={'col-span-1 2xl:border-r lg:border-r md:border-0 sm:border-0 border-black-100 grid justify-items-center py-5'}>
                 <div className={styles.trustsBox}>
-                <div className={'flex 2xl:justify-start lg:justify-between md:justify-between sm:justify-between'}>
+                <div className={'flex 2xl:justify-start lg:justify-between md:justify-between sm:justify-between justify-between'}>
                         <span className={styles.subtitle}>Co-incubate</span>
                         <div className={styles.arrow}/>
                         </div>
@@ -30,7 +30,7 @@ export default function Footer() {
                 <hr className={'justify-self-center w-11/12 2xl:hidden lg:block md:block sm:block'}/>
                 <div className={'col-span-1 2xl:border-r lg:border-r md:border-0 sm:border-0 border-black-100 grid justify-items-center py-5'}>
                     <div className={styles.trustsBox}>
-                    <div className={'flex 2xl:justify-start lg:justify-between md:justify-between sm:justify-between'}>
+                    <div className={'flex 2xl:justify-start lg:justify-between md:justify-between sm:justify-between justify-between'}>
                         <span className={styles.subtitle}>Customise</span>
                         <div className={styles.arrow}/>
                         </div>
@@ -40,7 +40,7 @@ export default function Footer() {
                 <hr className={'justify-self-center w-11/12 2xl:hidden lg:block md:block sm:block'}/>
                 <div className={'col-span-1  md:border-0 sm:border-0 border-black-100 grid justify-items-center py-5'}>
                     <div className={styles.trustsBox}>
-                    <div className={'flex 2xl:justify-start lg:justify-between md:justify-between sm:justify-between'}>
+                    <div className={'flex 2xl:justify-start lg:justify-between md:justify-between sm:justify-between justify-between'}>
                         <span className={styles.subtitle}>Organise</span>
                         <div className={styles.arrow}/>
                         </div>
